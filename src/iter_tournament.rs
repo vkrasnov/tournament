@@ -55,12 +55,12 @@ where
     /// # Examples
     ///
     /// ```
-    /// use tournament::Tournament;
+    /// use tournament_kway::{Comparator, Tournament};
     ///
     /// #[derive(Clone, Copy)]
     /// struct CompareIgnoringCase {}
     ///
-    /// impl tournament::Comparator<&str> for CompareIgnoringCase {
+    /// impl Comparator<&str> for CompareIgnoringCase {
     ///     fn cmp(&self, a: &&str, b: &&str) -> core::cmp::Ordering {
     ///         a.to_lowercase().cmp(&b.to_lowercase())
     ///     }

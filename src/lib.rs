@@ -7,7 +7,7 @@
 //! you only care about the top 10.
 //!
 //! ```
-//! use tournament::Tournament;
+//! use tournament_kway::Tournament;
 //!
 //! let t = Tournament::from_iters_min([(1..2000), (1..20000), (1..5000000)]);
 //! assert_eq!(t.take(5).collect::<Vec<_>>(), [1, 1, 1, 2, 2]);

@@ -1,9 +1,11 @@
 [package]
-name = "tournament"
+name = "tournament-kway"
 version = "0.1.0"
 edition = "2021"
 license = "MIT OR Apache-2.0"
 keywords = ["sort", "tournament", "tree", "kway", "merge"]
+description = "Implementation of a k-way merge using a tournament tree"
+repository = "https://github.com/vkrasnov/tournament"
 
 [dependencies]
 streaming-iterator = "0.1"
