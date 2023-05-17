@@ -17,6 +17,6 @@ mod comparator;
 mod iter_tournament;
 mod streaming_tournament;
 
-pub use comparator::Comparator;
+pub use comparator::*;
 pub use iter_tournament::Tournament;
 pub use streaming_tournament::StreamingTournament;
